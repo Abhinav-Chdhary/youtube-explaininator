@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     claude_api_key: str = ""
     claude_model: str = "claude-sonnet-4-6-20250514"
     claude_max_tokens: int = 1024
-    ollama_model: str = "llama3.1:8b"
+    ollama_model: str = "llama3.1:latest"
     ollama_base_url: str = "http://localhost:11434"
     qdrant_host: str = "localhost"
     qdrant_port: int = 6333
