@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn>=0.34
+youtube-transcript-api>=1.2.4
+qdrant-client>=1.12
+sentence-transformers>=3.3
+anthropic>=0.42
+ollama>=0.4
+redis>=5.2
+python-dotenv>=1.0
+pydantic-settings>=2.7
